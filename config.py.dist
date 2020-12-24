@@ -1,0 +1,11 @@
+CONFIG = {
+    "webhooks": [
+        {
+            "url": "http://localhost",
+            "headers": {"Content-Type": "application/json"},
+            "data": {"content": "Ding Dong!", "username": "Doorbot"}
+        }
+    ],
+    "debug": True,
+    "threshold": 25
+}
